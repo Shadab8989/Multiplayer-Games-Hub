@@ -1,0 +1,21 @@
+.rps {
+    text-align: center;
+    display: inline-block;
+  }
+
+  .rps-images{
+    margin: 10px auto;
+  }
+  .p1Name,.p2Name{
+    margin: auto;
+  }
+
+  .rps-container{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 50%;
+  }

@@ -1,0 +1,94 @@
+body {
+  background-color: #d0cda7;
+}
+
+*{
+  padding: 0%;
+  margin: 0;
+}
+
+.heading{
+  margin: auto;
+  width: 70%;
+  text-align: center;
+  font-size: 6rem;
+  margin-bottom: 50px;
+}
+
+
+h1 {
+  margin: 10px auto;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ECCA3;
+}
+
+.btn {
+  display: block;
+  font-size:23px;
+  font-family:Georgia;
+  width:140px;
+  height:50px;
+  border-width:0px;
+  color:#fff;
+  border-color:#c584f3;
+  font-weight:bold;
+  border-top-left-radius:42px;
+  border-top-right-radius:42px;
+  border-bottom-left-radius:42px;
+  border-bottom-right-radius:42px;
+  box-shadow:inset 0px 1px 0px 0px #efdcfb;
+  text-shadow:inset 0px 1px 0px #9752cc;
+  background:linear-gradient(#dfbdfa, #bc80ea);
+  margin: 10px auto;
+  
+}
+
+.btn:hover {
+  background: linear-gradient(#bc80ea, #dfbdfa);
+}
+                           
+p {
+  font-size: 2rem;
+  color: rgb(30 96 74);
+  font-family: 'Indie Flower', cursive;
+  margin: 10px auto;
+}
+
+img {
+  width: 80%;
+  display: block; 
+}
+
+.centerbutton{
+  width:fit-content ;
+  margin: auto;
+  text-align: center;
+}
+
+.divForcolorButton{
+  margin: auto;
+  width: fit-content;
+}
+.colorButton{
+  margin: auto;
+}
+
+.buttonCursor{
+  cursor: pointer;
+}
+
+section {
+  text-align: center;
+}
+
+
+
+footer {
+  background-color: black;
+  margin-top:10px;
+  color: white;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BOT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="rps.css">
+    <link rel="stylesheet" href="oneto100.css">
+    <link rel="stylesheet" href="tictactoe.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1 class="heading">Multiplayer Games Hub</h1>
+    <!-- <label for="">Player 1</label>
+      <input type="text" class="player1" id="player1Name", oninput= playerName()>
+      <label for="">Player 2</label>
+      <input type="text" class="player2" id="player2Name", oninput= playerName()> -->
+    <!-- <hr> -->
+
+    <div class="rps-container">
+      <h1 class="">Rock Paper Scissor</h1>
+      
+      <div class="rps-images">
+      <div class="rps p1">
+        <p class="p1Name">Player 1</p>
+        <img class="img3" src="images2/rps3.jpg">
+      </div>
+      
+      <div class="rps p2">
+        <p class="p2Name">Player 2</p>
+        <img class="img4" src="images2/rps3.jpg">
+      </div>
+    </div>
+      
+    <div class="centerbutton">
+      <button class="buttonCursor btn btn2">Play</button>
+      <button class="buttonCursor btn restart restart2">Restart</button>
+      <!-- <button class="counter">Counter</button> -->
+      <p>Game No: <span class="increment-gamerps">0</span> </p>
+      <p>Player1: <span class="increment-p1countrps">0</span> </p>
+      <p>Player2: <span class="increment-p2countrps">0</span> </p>
+      <p>Draws: <span class="increment-drawcountrps">0</span> </p>
+    </div>
+  </div>
+    <br><br>
+
+
+<div class="one-100">  
+  <h1>Guess 1 to 100</h1>    
+<button class="buttonCursor btn btn2" onclick="generateNumber()">Play</button>
+<p id="range">Guess the number between 0 and ?</p>
+<p id="displayguess">The Number is: _</p>
+<input type="number" class="player1-input" id="inputOfP1" min="0" max="100" >
+<input type="number" class="player2-input" id="inputOfP2" min="0" max="100" >
+<button class="buttonCursor btn btn2" id="CheckGuesses" onclick="Check()" disabled>Check</button>
+<button class="buttonCursor btn btn2" id="next1to100" onclick="next1to100()" disabled>Next Game</button>
+<button class="buttonCursor btn btn2" id="restart1to100" onclick="Oneto100Restart()" disabled>Restart Game</button>
+<p id="result1to100">The Winner is .....</p>
+<hr>
+<p>Player1: <span id="p1Score">0</span> </p>
+<p>Player2: <span id="p2Score">0</span> </p>
+<p>Draws: <span id="draw">0</span> </p>
+
+    </div>
+    <br><br>       
+    <div class="tictactoe">
+      
+        <h1>Tic Tac Toe</h1>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+        </div>
+        <h2 class="game--status"></h2>
+        <!-- <button class="buttonCursor btn btn2">New Game</button> -->
+        <button class="buttonCursor btn btn2" onclick="newGame()">New Game</button>
+        <button class="buttonCursor btn btn2" onclick="restartGame()">Restart</button>
+       
+      <p>Game No: <span class="increment-gameTTT">0</span> </p>
+      <p>Player1: <span class="increment-p1countTTT">0</span> </p>
+      <p>Player2: <span class="increment-p2countTTT">0</span> </p>
+      <p>Draws: <span class="increment-drawcountTTT">0</span> </p>
+    
+    </div>
+    
+    
+<script src="./rps.js"></script>
+<script src="./oneto100.js"></script>
+<script src="tictac.js"></script>
+  </body>
+
+  <footer>
+  -BY SHADAB KHAN
+  </footer>
+</html>
+
+
+

@@ -1,0 +1,33 @@
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    border: 2px solid black;
+  }
+
+  .cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  .tictactoe {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    border: 2px solid black;
+    flex-direction: column;
+    width: 50%;
+  }
+
+.game--status{
+    margin: auto;
+}
